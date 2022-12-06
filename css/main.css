@@ -287,12 +287,55 @@ span{
 	color:#fff;
 	font-size:15px;
 }
-.fa-envelope{
-	width:50px;
-}
+
 .copy_rights{
 	text-align:center;
 	font-size:13px;
 	color:#7688bb;
 	padding-top:30px;
+}
+
+
+
+.fa-circle-arrow-up{
+	font-size:45px;
+	color:#cdcdcd;
+	position:fixed;
+	right:40px;
+	bottom:100px;
+}
+
+.fa-circle-arrow-up:hover{
+	color:#8f8f8f;
+}
+.chat_bg{
+	height: 65px;
+    width: 65px;
+    background-color: #d3367f;
+    position: fixed;
+    right: 26px;
+    bottom: 17px;
+    border-radius: 50%;
+}
+.fa-comment{
+	font-size: 40px;
+	border-radius:5px;
+    color: #fff;
+    position: fixed;
+    right: 38px;
+    bottom: 29px;
+}
+
+.chat_online{
+	height: 12px;
+    width: 12px;
+    position: fixed;
+    background-color: #3cf64f;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    right: 30px;
+    bottom: 15px;
+}
+.hover:hover{
+	color:#000;
 }
