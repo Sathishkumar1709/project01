@@ -118,7 +118,7 @@ span{
 }
 
 .ceo .f_ceo{
-	display:flex;
+	
 	box-sizing:border-box;
 	width:30%;
 }
@@ -247,6 +247,10 @@ span{
 	text-decoration:none;
 	
 }
+.f_container .f_item a:hover{
+	border-bottom:2px solid #fff;
+	
+}
 .f_container .f_item .section_title{
 	font-size:25px;
 	font-weight:bold;
@@ -309,8 +313,8 @@ span{
 	color:#8f8f8f;
 }
 .chat_bg{
-	height: 65px;
-    width: 65px;
+	height: 60px;
+    width: 60px;
     background-color: #d3367f;
     position: fixed;
     right: 26px;
@@ -318,7 +322,7 @@ span{
     border-radius: 50%;
 }
 .fa-comment{
-	font-size: 40px;
+	font-size: 35px;
 	border-radius:5px;
     color: #fff;
     position: fixed;
